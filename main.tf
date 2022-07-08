@@ -20,5 +20,5 @@ module "ec2_cluster" {
 
 
 output "public_ip" {
-  value = ec2_cluster.public_ip
+  value = ec2_cluster.name.public_ip
 }
