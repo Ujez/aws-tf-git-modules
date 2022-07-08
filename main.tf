@@ -17,3 +17,8 @@ module "ec2_cluster" {
     Environment = "dev"
   }
 }
+
+
+output "public_ip" {
+  value = ec2_cluster.public_ip
+}
