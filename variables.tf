@@ -10,11 +10,11 @@ variable "AWS_REGION" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "levelup_key"
+  default = "levelup_key4"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "levelup_key.pub"
+  default = "levelup_key4.pub"
 }
 
 variable "INSTANCE_USERNAME" {
